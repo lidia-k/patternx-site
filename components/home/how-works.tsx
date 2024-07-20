@@ -7,6 +7,7 @@ import {
   faUpload,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function HowWorks() {
   return (
@@ -50,7 +51,7 @@ export default function HowWorks() {
           </div>
         </div>
         <div className="text-center pt-5 text-xl">
-          <a href="#" className="hover:underline">Learn more about how it works »</a>
+          <Link href="#" className="hover:underline">Learn more about how it works »</Link>
         </div>
       </div>
     </section>
