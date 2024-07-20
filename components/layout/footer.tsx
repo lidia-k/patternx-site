@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 lg:pb-6">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
+            <Link href="#" className="flex items-center">
               <Image
                 className="h-8 me-3 w-auto"
                 src="/images/logo.png"
@@ -18,7 +19,7 @@ export default function Header() {
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 PatternX
               </span>
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -27,14 +28,14 @@ export default function Header() {
               </h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Consulting
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     About
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -44,14 +45,14 @@ export default function Header() {
               </h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline ">
+                  <Link href="#" className="hover:underline ">
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -61,12 +62,12 @@ export default function Header() {
               </h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a
+                  <Link
                     className="hover:underline"
                     href="mailto:info@patternx.com"
                   >
                     info@patternx.com
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -76,9 +77,9 @@ export default function Header() {
         <div className="text-center">
           <span className="text-sm  sm:text-center text-gray-400">
             © 2024{" "}
-            <a href="#" className="hover:underline">
+            <Link href="#" className="hover:underline">
               PatternX
-            </a>
+            </Link>
             . All Rights Reserved.
           </span>
         </div>

@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function PatternXUses() {
   return (
     <section className="py-10 pt-4 container px-4 mx-auto max-w-4xl">
@@ -24,9 +26,9 @@ export default function PatternXUses() {
         And much more!
         <br />
         Not sure about your use case? Drop us a line{" "}
-        <a className="text-blue-600 hover:underline" href="mailto:info@patternx.com">
+        <Link className="text-blue-600 hover:underline" href="mailto:info@patternx.com">
           info@patternx.com
-        </a>
+        </Link>
       </p>
     </section>
   );

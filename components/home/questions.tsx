@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Questions() {
   return (
     <section className="py-10 container px-4 mx-auto max-w-4xl">
@@ -8,9 +10,9 @@ export default function Questions() {
       </h3>
       <p className="text-center">
         We&apos;re happy to help!{" "}
-        <a href="#" className="text-blue-600 hover:underline">
+        <Link href="#" className="text-blue-600 hover:underline">
           Read our FAQ
-        </a>
+        </Link>
       </p>
     </section>
   );
