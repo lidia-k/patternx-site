@@ -23,9 +23,11 @@ export default function RootLayout({
     <html lang="en">
       <Flowbite theme={{ theme: Theme }}>
         <body className={openSan.className}>
-          <Header />
-          {children}
-          <Footer />
+          <div className="flex flex-col justify-between min-h-screen">
+            <Header />
+            {children}
+            <Footer />
+          </div>
         </body>
       </Flowbite>
     </html>

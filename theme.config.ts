@@ -2,6 +2,9 @@ import type { CustomFlowbiteTheme } from "flowbite-react";
 
 const customTheme: CustomFlowbiteTheme = {
   navbar: {
+    root: {
+      base: "bg-white px-2 py-2.5 dark:border-gray-700 dark:bg-gray-800 sm:px-4 border-b",
+    },
     link: {
       base: "block py-2 pl-3 pr-4 md:p-0",
       active: {

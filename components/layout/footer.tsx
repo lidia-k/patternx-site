@@ -8,7 +8,7 @@ export default function Header() {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 lg:pb-6">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Link href="#" className="flex items-center">
+            <Link href="/" className="flex items-center">
               <Image
                 className="h-8 me-3 w-auto"
                 src="/images/logo.png"
@@ -28,12 +28,12 @@ export default function Header() {
               </h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href="#" className="hover:underline">
+                  <Link href="/consulting" className="hover:underline">
                     Consulting
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:underline">
+                  <Link href="/about" className="hover:underline">
                     About
                   </Link>
                 </li>
@@ -64,9 +64,9 @@ export default function Header() {
                 <li className="mb-4">
                   <Link
                     className="hover:underline"
-                    href="mailto:info@patternx.com"
+                    href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL}
                   >
-                    info@patternx.com
+                    {process.env.NEXT_PUBLIC_EMAIL}
                   </Link>
                 </li>
               </ul>
