@@ -16,7 +16,7 @@ export default function HardMatches() {
       </h3>
       <div className="text-lg text-center mb-8">
         <p className="mb-2">
-          Real-world data is messy, and Dedupe.io was built to work with it
+          Real-world data is messy, and Patternx was built to work with it
         </p>
         <p>We find matches even when there are major data quality issues</p>
       </div>

@@ -14,13 +14,13 @@ export default function Consulting() {
         cutting-edge de-duplication and entity resolution library.
       </p>
       <p className="mb-2">
-        We provide the following consulting services around using the dedupe
+        We provide the following consulting services around using the patternx
         library:
       </p>
       <ul className="list-disc ps-10 mb-4">
         <li>Video or phone consultation</li>
         <li>
-          Providing detailed answers to questions related to the dedupe library
+          Providing detailed answers to questions related to the Patternx library
           and its implementation
         </li>
         <li>Code review</li>
