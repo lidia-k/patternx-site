@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Consulting() {
   return (
-    <Content>
+    <Content showBanner={true}>
       <h1 className="text-2xl md:text-3xl font-bold mb-7">About</h1>
       <p className="mb-2">
         PatternX is a software as a service platform for quickly and accurately

@@ -45,12 +45,12 @@ export default function Header() {
               </h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href="#" className="hover:underline ">
+                  <Link href="/terms-of-service" className="hover:underline ">
                     Terms of Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:underline">
+                  <Link href="/privacy-policy" className="hover:underline">
                     Privacy Policy
                   </Link>
                 </li>
@@ -77,7 +77,7 @@ export default function Header() {
         <div className="text-center">
           <span className="text-sm  sm:text-center text-gray-400">
             © 2024{" "}
-            <Link href="#" className="hover:underline">
+            <Link href="/" className="hover:underline">
               PatternX
             </Link>
             . All Rights Reserved.

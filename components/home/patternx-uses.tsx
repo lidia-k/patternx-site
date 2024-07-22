@@ -26,7 +26,7 @@ export default function PatternXUses() {
         And much more!
         <br />
         Not sure about your use case? Drop us a line{" "}
-        <Link className="text-blue-600 hover:underline" href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL}>
+        <Link className="text-primary hover:underline" href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL}>
           {process.env.NEXT_PUBLIC_EMAIL}
         </Link>
       </p>

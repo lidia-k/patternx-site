@@ -10,7 +10,7 @@ export default function Questions() {
       </h3>
       <p className="text-center">
         We&apos;re happy to help!{" "}
-        <Link href="#" className="text-blue-600 hover:underline">
+        <Link href="#" className="text-primary hover:underline">
           Read our FAQ
         </Link>
       </p>

@@ -22,6 +22,7 @@ const config: Config = {
       green: colors.green,
       red: colors.red,
       yellow: colors.yellow,
+      primary: colors.blue[600]
     },
   },
   plugins: [flowbite.plugin()],

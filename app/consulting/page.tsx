@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Consulting() {
   return (
-    <Content>
+    <Content showBanner={true}>
       <h1 className="text-2xl md:text-3xl font-bold mb-7">
         PatternX library consulting
       </h1>
@@ -33,7 +33,7 @@ export default function Consulting() {
       </p>
       Questions? Ready to get started?{" "}
       <Link
-        className="text-blue-600 hover:underline"
+        className="text-primary hover:underline"
         href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL}
       >
         Send us an email
