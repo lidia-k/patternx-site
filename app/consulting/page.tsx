@@ -5,40 +5,38 @@ export default function Consulting() {
   return (
     <Content showBanner={true}>
       <h1 className="text-2xl md:text-3xl font-bold mb-7">
-        PatternX library consulting
+        PatternX Consulting
       </h1>
       <p className="mb-2">
-        As the authors of the PatternX python library, we have extensive
-        knowledge and experience in working with tricky and hard to clean-up
-        datasets. We&apos;re happy to consult with you in working with our
-        cutting-edge de-duplication and entity resolution library.
+        As experts in machine learning and data cleaning, we bring extensive
+        knowledge and experience in handling complex and challenging datasets. 
+        Our team is ready to consult with you on leveraging our cutting-edge
+        technologies to solve your unique data challenges.
       </p>
       <p className="mb-2">
-        We provide the following consulting services around using the patternx
-        library:
+        We offer comprehensive consulting services around data cleaning, repair, and optimization:
       </p>
-      <ul className="list-disc ps-10 mb-4">
-        <li>Video or phone consultation</li>
-        <li>
-          Providing detailed answers to questions related to the Patternx library
-          and its implementation
-        </li>
-        <li>Code review</li>
-        <li>Code samples</li>
-        <li>Documentation, guides and other written documents</li>
+      <ul className="list-disc ps-10 mb-6">
+        <li className="mb-2">Initial Assessment: Free 30-minute video or phone consultation to understand your specific data challenges</li>
+        <li className="mb-2">Data Analysis: In-depth examination of your dataset to identify cleaning and repair needs</li>
+        <li className="mb-2">Custom Solution Design: Tailored approach to clean and optimize your data using our advanced technologies</li>
+        <li className="mb-2">AI-Driven Cleaning: Application of machine learning techniques for efficient and accurate data cleaning</li>
+        <li className="mb-2">Results Review: Detailed walkthrough of the cleaned dataset and improvements made</li>
       </ul>
-      <p className="mb-2">
-        We charge for consulting at $350/hour with a minimum retainer of 10
-        hours.
+      <p className="mb-4">
+        Our consultation process helps you understand how we can clean and optimize your data, 
+        saving you time and resources while ensuring high-quality results.
       </p>
-      Questions? Ready to get started?{" "}
+      <p className="mb-4">
+        We offer a free initial consultation to get you started.
+      </p>
       <Link
         className="text-primary hover:underline"
         href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL}
       >
         Send us an email
       </Link>
-      .
+      {" "}to schedule your free consultation.
     </Content>
   );
 }

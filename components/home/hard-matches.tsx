@@ -12,13 +12,14 @@ export default function HardMatches() {
   return (
     <section className="py-10 container px-4 mx-auto max-w-4xl">
       <h3 className="text-center text-2xl md:text-3xl font-bold mb-7">
-        We find the hard matches
+        Tackling Hard Matches 
       </h3>
       <div className="text-lg text-center mb-8">
         <p className="mb-2">
-          Real-world data is messy, and Patternx was built to work with it
+          Real-world data is often messy. At PatternX, we've developed advanced
+          techinques to handle these challenges. 
         </p>
-        <p>We find matches even when there are major data quality issues</p>
+        <p>Our solutions are designed to identify matches that are challenging to find with the traditional approahces.</p>
       </div>
       <div className="mt-4">
         <h2 className="text-xl font-bold mb-2">
@@ -26,10 +27,10 @@ export default function HardMatches() {
           abbreviations
         </h2>
         <p>
-          Data that is hand-typed can have misspellings, abbreviations and other
-          typos
+          Manual data entry often leads to errors such as typos, misspellings, and inconsistent abbreviations. 
           <br />
-          We match them using powerful text similarity algorithms
+          Our advanced algorithms are designed to recognize and reconcile these discrepancies, 
+          ensuring accurate matching.
         </p>
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">
@@ -41,7 +42,7 @@ export default function HardMatches() {
                   name
                 </th>
                 <th scope="col" className="p-2 border">
-                  address
+                  email
                 </th>
               </tr>
             </thead>
@@ -51,11 +52,14 @@ export default function HardMatches() {
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
                 <td className="p-2 border">
-                  <strong className="text-red-500">atty</strong> title{" "}
-                  <strong className="text-red-500">guaranty</strong> fund
+                  John{" "}
+                  <strong className="text-red-500">Lewis</strong>{" "}
+                  Anderson
                 </td>
                 <td className="p-2 border">
-                  One S. Wacker Dr. 24th Floor Chicago, IL 60606
+                  jland
+                  <strong className="text-red-500">e</strong>
+                  rson@hotmail.com
                 </td>
               </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -63,10 +67,72 @@ export default function HardMatches() {
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
                 <td className="p-2 border">
-                  attorneys&apos; title guarantee fund, inc.
+                  John{" "}
+                  <strong className="text-red-500">L.</strong>{" "} 
+                  Anderson
                 </td>
                 <td className="p-2 border">
-                  1 s. wacker drive 24th floor chicago il 60606
+                  jlandrson@hotmail.com
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="text-xl font-bold mb-2">
+          <FontAwesomeIcon icon={faKeyboard} /> Name variations
+        </h2>
+        <p>
+          Names can be written in many different ways from nicknames to formal versions.
+          <br />
+          Our system is equipped to identify and link these variations.
+        </p>
+
+        <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">
+          <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <thead className="text-xs text-gray-700 bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <tr>
+                <th scope="col" className="p-2 border"></th>
+                <th scope="col" className="p-2 border">
+                  name
+                </th>
+                <th scope="col" className="p-2 border">
+                  organization
+                </th>
+                <th scope="col" className="p-2 border">
+                  email
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td className="p-2 border">
+                  <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                </td>
+                <td className="p-2 border">
+                  <strong className="text-red-500">Robert</strong>{" "}
+                  Thompson
+                </td>
+                <td className="p-2 border">
+                  LifeLine Medical Group
+                </td>
+                <td className="p-2 border">
+                  thompson.b@lifelinemed.com
+                </td>
+              </tr>
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td className="p-2 border">
+                  <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                </td>
+                <td className="p-2 border">
+                  <strong className="text-red-500">Bob</strong>{" "} 
+                  James Thompson
+                </td>
+                <td className="p-2 border">
+                  LifeLine Medical Group
+                </td>
+                <td className="p-2 border">
+                  thompson.b@lifelinemed.com
                 </td>
               </tr>
             </tbody>
@@ -77,9 +143,9 @@ export default function HardMatches() {
           <FontAwesomeIcon icon={faAlignCenter} /> Inconsistent formatting
         </h2>
         <p>
-          Different people and systems format data differently
+          Different people and systems format data differently.
           <br />
-          We parse out names, addresses and any text to make smart comparisons
+          We parse and standardize names, addresses and any text to make smart comparisons.
         </p>
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">
@@ -88,7 +154,7 @@ export default function HardMatches() {
               <tr>
                 <th scope="col" className="p-2 border"></th>
                 <th scope="col" className="p-2 border">
-                  site_name
+                  organization
                 </th>
                 <th scope="col" className="p-2 border">
                   address
@@ -104,46 +170,46 @@ export default function HardMatches() {
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
                 <td className="p-2 border bg-yellow-50">
-                  Chicago Commons Guadalupano
+                  UCSF Medical Center
                 </td>
                 <td className="p-2 border bg-yellow-50">
-                  1814 S. Paulina 60608
+                  505 Parnassus Avenue, San Francisco, California 
                 </td>
-                <td className="p-2 border bg-yellow-50">6663883</td>
+                <td className="p-2 border bg-yellow-50">(415) 476-1000</td>
               </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <td className="p-2 border">
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
                 <td className="p-2 border bg-yellow-50">
-                  Chicago Commons Guadalupano Family Center
+                  University of California, San Francisco Medical Center
                 </td>
                 <td className="p-2 border bg-yellow-50">
-                  1814 South Paulina 60608
+                  505 Parnassus Ave., SF, CA
                 </td>
-                <td className="p-2 border bg-yellow-50">6663884</td>
+                <td className="p-2 border bg-yellow-50">415-476-1000</td>
               </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <td className="p-2 border">
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
                 <td className="p-2 border bg-yellow-50">
-                  Chicago Commons Association - Guadalupano Family Center
+                  San Francisco Medical Center - University of California
                 </td>
-                <td className="p-2 border bg-yellow-50">1814 S Paulina St </td>
-                <td className="p-2 border bg-yellow-50">6663883</td>
+                <td className="p-2 border bg-yellow-50">505 Parnassus, San Francisco </td>
+                <td className="p-2 border bg-yellow-50">4154761000</td>
               </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <td className="p-2 border">
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
                 <td className="p-2 border bg-yellow-50">
-                  CHICAGO COMMONS ASSOCIATION GUADALUPANO FAMILY CENTER
+                  UC San Francisco Med Center
                 </td>
                 <td className="p-2 border bg-yellow-50">
-                  1814 S PAULINA 60608
+                  505 PARNASSUS, SAN FRANCISCO
                 </td>
-                <td className="p-2 border bg-yellow-50">6663883</td>
+                <td className="p-2 border bg-yellow-50">+1 415 476 1000</td>
               </tr>
             </tbody>
           </table>
@@ -153,10 +219,9 @@ export default function HardMatches() {
           <FontAwesomeIcon icon={faExclamationTriangle} /> Contradictory fields
         </h2>
         <p>
-          Sometimes, your data doesn&apos;t agree with itself
+          In some cases, data about the same entry contains contradictory information. 
           <br />
-          We compare using multiple fields to find records with the most
-          agreement
+          We compare using multiple fields to identify the most likely matches.
         </p>
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">
@@ -165,13 +230,16 @@ export default function HardMatches() {
               <tr>
                 <th scope="col" className="p-2 border"></th>
                 <th scope="col" className="p-2 border">
-                  site_name
+                  name
                 </th>
                 <th scope="col" className="p-2 border">
-                  address
+                  organization
                 </th>
                 <th scope="col" className="p-2 border">
-                  phone
+                  national provider identifier
+                </th>
+                <th scope="col" className="p-2 border">
+                  email
                 </th>
               </tr>
             </thead>
@@ -180,19 +248,19 @@ export default function HardMatches() {
                 <td className="p-2 border">
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
-                <td className="bg-green-100 p-2">kennedy-king college</td>
-                <td className="bg-red-100 p-2">6301 s halsted street 60621</td>
-                <td className="bg-green-100 p-2">6025340</td>
+                <td className="bg-green-100 p-2">Dr. Elena R. Martinez</td>
+                <td className="bg-green-100 p-2">Evergreen Medical Associates</td>
+                <td className="bg-red-100 p-2">12345678</td>
+                <td className="bg-green-100 p-2">e.martinez@evergreenmedical.org</td>
               </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <td className="p-2 border">
                   <FontAwesomeIcon icon={faCheckCircle} color="green" />
                 </td>
-                <td className="bg-green-100 p-2">kennedy-king college</td>
-                <td className="bg-red-100 p-2">
-                  6800 s wentworth avenue 60621
-                </td>
-                <td className="bg-green-100 p-2">6025340</td>
+                <td className="bg-green-100 p-2">Elena R. Martinez</td>
+                <td className="bg-green-100 p-2">Evergreen Medical Associates</td>
+                <td className="bg-red-100 p-2">13579246</td>
+                <td className="bg-green-100 p-2">e.martinez@evergreenmedical.org</td>
               </tr>
             </tbody>
           </table>

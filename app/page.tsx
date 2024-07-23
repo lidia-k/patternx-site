@@ -14,13 +14,12 @@ export default function Home() {
     <main>
       <Banner />
       <VideoIntro />
-      <Organizations />
       <SimpleTool />
       <PatternXUses />
-      <PatternXAction />
       <HowUse />
       <HardMatches />
       <HowWorks />
+      <PatternXAction />
       <Questions />
     </main>
   );

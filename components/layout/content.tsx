@@ -25,7 +25,7 @@ function SmallBanner() {
           </span>
         </div>
         <h2 className="text-lg font-extrabold md:text-xl">
-          De-duplicate and find matches in your Excel spreadsheet or database
+          Clean, Repair and Optimize Your Data with AI
         </h2>
       </div>
     </section>

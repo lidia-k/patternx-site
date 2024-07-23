@@ -17,7 +17,7 @@ export default function Banner() {
           </span>
         </div>
         <h1 className="text-xl font-extrabold md:text-2xl lg:text-3xl">
-          De-duplicate and find matches in your Excel spreadsheet or database
+          Clean, Repair and Optimize Your Data with AI
         </h1>
       </div>
     </section>

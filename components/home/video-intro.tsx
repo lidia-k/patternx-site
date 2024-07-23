@@ -4,11 +4,12 @@ export default function VideoIntro() {
   return (
     <section className="py-10 container px-4 mx-auto text-xl">
       <p className="mb-4">
-        <b>PatternX</b> is a powerful tool that learns the best way to find
-        similar rows in your data. Using cutting-edge research in machine
-        learning we quickly and accurately identify matches in your Excel
-        spreadsheet or database—saving you time and money.
+        <b>PatternX</b> offers an advanced data de-duplication service that identifies
+        duplicate entires in your datasets. Leveraging state-of-the-art machine learning techniques, 
+        we efficiently and accurately detect matches in your Excel spreadsheet or databases, 
+        helping you save valueable time and resources. 
       </p>
+      {/*
       <p className="mb-4">
         <iframe
           className="mx-auto w-full h-96 rounded-lg sm:h-[32rem] shadow-xl"
@@ -18,6 +19,7 @@ export default function VideoIntro() {
           allowFullScreen
         />
       </p>
+      */}
     </section>
   );
 }

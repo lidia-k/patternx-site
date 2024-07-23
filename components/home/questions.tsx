@@ -11,7 +11,7 @@ export default function Questions() {
       <p className="text-center">
         We&apos;re happy to help!{" "}
         <Link href="#" className="text-primary hover:underline">
-          Read our FAQ
+          Contact us. 
         </Link>
       </p>
     </section>
