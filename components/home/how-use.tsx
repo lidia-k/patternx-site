@@ -1,9 +1,9 @@
 "use client";
 
 import {
-  faCheckSquare,
+  faCheckCircle,
   faLink,
-  faTable,
+  faTableCells,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -16,7 +16,7 @@ export default function HowUse() {
         </h3>
         <div className="grid gap-4 sm:grid-cols-3 text-center">
           <div className="mb-2 sm:mb-0">
-            <FontAwesomeIcon size="3x" icon={faTable} />
+            <FontAwesomeIcon size="3x" icon={faTableCells} />
             <h4 className="text-lg mt-4 mb-2 font-semibold">
               Single-Source Deduplication
             </h4>
@@ -37,7 +37,7 @@ export default function HowUse() {
           </div>
 
           <div className="mb-2 sm:mb-0">
-            <FontAwesomeIcon size="3x" icon={faCheckSquare} />
+            <FontAwesomeIcon size="3x" icon={faCheckCircle} />
             <h4 className="text-lg mt-4 mb-2 font-semibold">
               Mater List Verification
             </h4>

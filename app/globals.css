@@ -9,5 +9,5 @@
 }
 
 body {
-  color: #4b4a4a;
+  @apply text-gray-600
 }

@@ -2,7 +2,7 @@
 
 import {
   faCheck,
-  faDownload,
+  faCheckDouble,
   faTimes,
   faUpload,
 } from "@fortawesome/free-solid-svg-icons";
@@ -39,7 +39,7 @@ export default function HowWorks() {
           </div>
 
           <div className="mb-2 sm:mb-0">
-            <FontAwesomeIcon size="3x" icon={faDownload} />
+            <FontAwesomeIcon size="3x" icon={faCheckDouble} />
             <h4 className="text-lg mt-4 mb-2 font-semibold">
               Validate and review
             </h4>

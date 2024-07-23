@@ -1,10 +1,11 @@
 "use client";
 
 import {
+  faAddressBook,
   faAlignCenter,
   faCheckCircle,
-  faExclamationTriangle,
   faKeyboard,
+  faWarning,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -80,7 +81,7 @@ export default function HardMatches() {
         </div>
 
         <h2 className="text-xl font-bold mb-2">
-          <FontAwesomeIcon icon={faKeyboard} /> Name variations
+          <FontAwesomeIcon icon={faAddressBook} /> Name variations
         </h2>
         <p>
           Names can be written in many different ways from nicknames to formal versions.
@@ -216,7 +217,7 @@ export default function HardMatches() {
         </div>
 
         <h2 className="text-xl font-bold mb-2">
-          <FontAwesomeIcon icon={faExclamationTriangle} /> Contradictory fields
+          <FontAwesomeIcon icon={faWarning} /> Contradictory fields
         </h2>
         <p>
           In some cases, data about the same entry contains contradictory information. 
