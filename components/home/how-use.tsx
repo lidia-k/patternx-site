@@ -18,31 +18,30 @@ export default function HowUse() {
           <div className="mb-2 sm:mb-0">
             <FontAwesomeIcon size="3x" icon={faTableCells} />
             <h4 className="text-lg mt-4 mb-2 font-semibold">
-              Single-Source Deduplication
+              Single-Source Cleanup
             </h4>
             <p className="font-light">
-              Identify exact and similar records within a single source of data
+              Identify exact and similar records within a single data source
             </p>
           </div>
 
           <div className="mb-2 sm:mb-0">
             <FontAwesomeIcon size="3x" icon={faLink} />
             <h4 className="text-lg mt-4 mb-2 font-semibold">
-              Multi-Source Integration
+              Multi-Source Magic
             </h4>
             <p className="font-light">
-              Link together two or more data sources and find overlapping
-              records in each
+              Link and de-duplicate across two or more data sources
             </p>
           </div>
 
           <div className="mb-2 sm:mb-0">
             <FontAwesomeIcon size="3x" icon={faCheckCircle} />
             <h4 className="text-lg mt-4 mb-2 font-semibold">
-              Mater List Verification
+              Master List Mastery
             </h4>
             <p className="font-light">
-              Create a master list and check new data against it
+              Create a golden record and easily check new data against it
             </p>
           </div>
         </div>

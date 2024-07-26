@@ -5,22 +5,20 @@ import HowWorks from "@/components/home/how-works";
 import Organizations from "@/components/home/organizations";
 import PatternXAction from "@/components/home/patternx-action";
 import PatternXUses from "@/components/home/patternx-uses";
-import Questions from "@/components/home/questions";
-import SimpleTool from "@/components/home/simple-tool";
-import VideoIntro from "@/components/home/video-intro";
+import CallToAction from "@/components/home/cta";
+import Problems from "@/components/home/problems";
+import Intro from "@/components/home/intro";
 
 export default function Home() {
   return (
     <main>
       <Banner />
-      <VideoIntro />
-      <SimpleTool />
-      <PatternXUses />
+      <Intro />
+      <Problems />
       <HowUse />
       <HardMatches />
-      <HowWorks />
       <PatternXAction />
-      <Questions />
+      <CallToAction />
     </main>
   );
 }

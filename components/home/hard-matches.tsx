@@ -13,14 +13,13 @@ export default function HardMatches() {
   return (
     <section className="py-10 container px-4 mx-auto max-w-4xl">
       <h3 className="text-center text-2xl md:text-3xl font-bold mb-7">
-        Tackling Hard Matches 
+        We Tackle the Tough Stuff
       </h3>
       <div className="text-lg text-center mb-8">
         <p className="mb-2">
-          Real-world data is often messy. At PatternX, we've developed advanced
-          techinques to handle these challenges. 
+          Real-world data is messy. Traditional approaches fall short. 
         </p>
-        <p>Our solutions are designed to identify matches that are challenging to find with the traditional approaches.</p>
+        <p>At PatternX, we've developed advanced techniques using machine learning to handle the challenges:</p>
       </div>
       <div className="mt-4">
         <h2 className="text-xl font-bold mb-2">
@@ -30,8 +29,7 @@ export default function HardMatches() {
         <p>
           Manual data entry often leads to errors such as typos, misspellings, and inconsistent abbreviations. 
           <br />
-          Our advanced algorithms are designed to recognize and reconcile these discrepancies, 
-          ensuring accurate matching.
+          Our advanced algorithms are designed to catch these discrepancies.
         </p>
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">
@@ -86,7 +84,7 @@ export default function HardMatches() {
         <p>
           Names can be written in many different ways from nicknames to formal versions.
           <br />
-          Our system is equipped to identify and link these variations.
+          Our system is equipped to recognize that "Robert," "Bob," and "Rob" might be the same person.
         </p>
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">
@@ -222,7 +220,7 @@ export default function HardMatches() {
         <p>
           In some cases, data about the same entry contains contradictory information. 
           <br />
-          We compare using multiple fields to identify the most likely matches.
+          We use smart comparisons to find the most likely matches.
         </p>
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">
