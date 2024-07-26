@@ -32,7 +32,7 @@ export default function CallToAction() {
           Book a free consultation with our data experts and discover how PatternX can clean up your datasets.
         </p>
         <Link
-          href="/book-dedup-consultation"
+          href="/consulting"
           className="block w-full bg-blue-600 text-white text-center font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
         >
           Book Your Free Consultation
