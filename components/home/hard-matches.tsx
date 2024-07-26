@@ -19,7 +19,7 @@ export default function HardMatches() {
         <p className="mb-2">
           Real-world data is messy. Traditional approaches fall short. 
         </p>
-        <p>At PatternX, we've developed advanced techniques using machine learning to handle the challenges:</p>
+        <p>At PatternX, we&apos;ve developed advanced techniques using machine learning to handle the challenges:</p>
       </div>
       <div className="mt-4">
         <h2 className="text-xl font-bold mb-2">
@@ -84,7 +84,7 @@ export default function HardMatches() {
         <p>
           Names can be written in many different ways from nicknames to formal versions.
           <br />
-          Our system is equipped to recognize that "Robert," "Bob," and "Rob" might be the same person.
+          Our system is equipped to recognize that &quot;Robert,&quot; &quot;Bob,&quot; and &quot;Rob&quot; might be the same person.
         </p>
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4 mb-8">

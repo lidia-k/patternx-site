@@ -12,14 +12,14 @@ export default function Consulting() {
       </p>
       <h2 className="text-xl md:text-2xl font-bold mt-6 mb-4">Vision & Mission</h2>
       <p className="mb-2">
-        In today's AI-driven world, data is the new gold. However, many companies struggle 
+        In today&apos;s AI-driven world, data is the new gold. However, many companies struggle 
         with the daunting and time-consuming task of data cleaning and repair, often relying 
-        on inefficient manual processes. At PatternX, we believe there's a better way.
+        on inefficient manual processes. At PatternX, we believe there&apos;s a better way.
       </p>
       <p className="mb-2">
         We envision a future where every business, regardless of size or sector, can harness  
         the full potential of their data. By making data cleaning and repair more accessible 
-        and efficient, we're not just solving a problem – we're unlocking new possibilities 
+        and efficient, we&apos;re not just solving a problem – we&apos;re unlocking new possibilities 
         for innovation, growth, and success in the AI era.
       </p> 
       <h2 className="text-xl md:text-2xl font-bold mt-6 mb-4">Solution</h2>
@@ -48,7 +48,7 @@ export default function Consulting() {
           ensuring higher data integrity.
         </li>
         <li className="mb-2">
-          <span className="font-semibold">Scalability:</span> Whether you're a startup or a Fortune 500 company, 
+          <span className="font-semibold">Scalability:</span> Whether you&apos;re a startup or a Fortune 500 company, 
           our solutions adapt to your data volume and complexity.
         </li>
       </ul>
