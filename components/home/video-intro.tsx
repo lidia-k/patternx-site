@@ -5,7 +5,7 @@ export default function VideoIntro() {
     <section className="py-10 container px-4 mx-auto text-xl">
       <p className="mb-4">
         <b>PatternX</b> offers an advanced data de-duplication service that identifies
-        duplicate entires in your datasets. Leveraging state-of-the-art machine learning techniques, 
+        duplicate entries in your datasets. Leveraging state-of-the-art machine learning techniques, 
         we efficiently and accurately detect matches in your Excel spreadsheet or databases, 
         helping you save valueable time and resources. 
       </p>

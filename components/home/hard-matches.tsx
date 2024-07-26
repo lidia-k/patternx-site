@@ -19,7 +19,7 @@ export default function HardMatches() {
           Real-world data is often messy. At PatternX, we've developed advanced
           techinques to handle these challenges. 
         </p>
-        <p>Our solutions are designed to identify matches that are challenging to find with the traditional approahces.</p>
+        <p>Our solutions are designed to identify matches that are challenging to find with the traditional approaches.</p>
       </div>
       <div className="mt-4">
         <h2 className="text-xl font-bold mb-2">
