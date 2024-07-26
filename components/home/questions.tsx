@@ -10,7 +10,7 @@ export default function Questions() {
       </h3>
       <p className="text-center">
         We&apos;re happy to help!{" "}
-        <Link href="#" className="text-primary hover:underline">
+        <Link href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL} className="text-primary hover:underline">
           Contact us. 
         </Link>
       </p>

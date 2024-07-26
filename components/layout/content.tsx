@@ -20,11 +20,11 @@ function SmallBanner() {
             width={100}
             height={100}
           />
-          <span className="ms-2 text-3xl sm:text-5xl font-extrabold">
+          <span className="ms-2 text-3xl sm:text-5xl font-black">
             PatternX
           </span>
         </div>
-        <h2 className="text-lg font-extrabold md:text-xl">
+        <h2 className="text-lg font-black md:text-xl">
           Clean, Repair and Optimize Your Data with AI
         </h2>
       </div>

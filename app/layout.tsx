@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Roboto } from "next/font/google";
 import { Flowbite } from "flowbite-react";
 import Theme from "@/theme.config";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import "./globals.css";
 
-const openSan = Open_Sans({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700", "900"],
+});
 
 export const metadata: Metadata = {
   title: "PatternX",
@@ -22,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Flowbite theme={{ theme: Theme }}>
-        <body className={openSan.className}>
+        <body className={roboto.className}>
           <div className="flex flex-col justify-between min-h-screen">
             <Header />
             {children}

@@ -12,11 +12,11 @@ export default function Banner() {
             width={160}
             height={160}
           />
-          <span className="ms-2 text-4xl sm:text-7xl font-extrabold">
+          <span className="ms-2 text-4xl sm:text-7xl font-black">
             PatternX
           </span>
         </div>
-        <h1 className="text-xl font-extrabold md:text-2xl lg:text-3xl">
+        <h1 className="text-xl font-black md:text-2xl lg:text-3xl">
           Clean, Repair and Optimize Your Data with AI
         </h1>
       </div>
