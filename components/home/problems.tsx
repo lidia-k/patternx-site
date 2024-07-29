@@ -10,22 +10,22 @@ export default function Problems() {
   
       <div className="space-y-4">
         <p>
-          In today's data-driven world, you're collecting information from everywhere. 
+          In today&apos;s data-driven world, you&apos;re collecting information from everywhere. 
           But with that comes a massive challenge: <b>duplicate records.</b>
         </p>
         
         <ul className="bg-gray-100 rounded-lg p-6 space-y-4 shadow-md">
           <li className="flex items-start">
             <span className="text-blue-600 mr-2">•</span>
-            <span><strong>Manually searching for duplicates?</strong> It's mind-numbing and error-prone.</span>
+            <span><strong>Manually searching for duplicates?</strong> It&apos;s mind-numbing and error-prone.</span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 mr-2">•</span>
-            <span><strong>Merging data from multiple sources?</strong> It's a recipe for inconsistencies.</span>
+            <span><strong>Merging data from multiple sources?</strong> It&apos;s a recipe for inconsistencies.</span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 mr-2">•</span>
-            <span><strong>Trying to create a reliable master list?</strong> It's a big challenge without specialized tools.</span>
+            <span><strong>Trying to create a reliable master list?</strong> It&apos;s a big challenge without specialized tools.</span>
           </li>
         </ul>
 
