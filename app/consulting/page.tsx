@@ -60,7 +60,7 @@ export default function Consulting() {
 
         <div className="text-center">
           <p className="mb-4 text-lg">
-            Prefer to reach out directly? We're just an email away.
+            Prefer to reach out directly? We&apos;re just an email away.
           </p>
           <Link
             className="text-primary hover:underline text-lg font-semibold"

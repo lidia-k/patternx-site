@@ -49,7 +49,7 @@ export default function ConsultingForm() {
       } else {
         setSuccess(true);
       }
-    } catch (error) {
+    } catch (error: any) {
       // Capture the error message to display to the user
       setError({ message: error.message });
     } finally {
