@@ -5,22 +5,28 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 3333",
+    "lint": "next lint",
+    "email": "email dev"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-email/components": "0.0.22",
     "flowbite": "^2.4.1",
     "flowbite-react": "^0.10.1",
     "next": "^14.2.5",
+    "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
-    "sharp": "^0.33.4"
+    "react-email": "2.1.6",
+    "sharp": "^0.33.4",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.15",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.19",
