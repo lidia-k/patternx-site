@@ -3,12 +3,16 @@ import Link from "next/link";
 import { useState, useEffect } from 'react';
 
 export default function CallToAction() {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY > 200) {
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+      const footerHeight = 200;
+
+      if (currentScrollY > 200 && currentScrollY + windowHeight < documentHeight - footerHeight) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
