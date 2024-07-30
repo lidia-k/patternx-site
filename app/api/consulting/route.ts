@@ -29,7 +29,7 @@ export async function POST(request: Request) {
 
   try {
     await sendMail(<Mail.Options>{
-      to: result.data.email,
+      to: process.env.NEXT_PUBLIC_EMAIL,
       subject: "[PatternX] Request Consulting",
       html: render(ConsultationEmail(result.data)),
     });

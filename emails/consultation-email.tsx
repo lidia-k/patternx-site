@@ -35,7 +35,7 @@ export const ConsultationEmail = (data: ConsultationEmailProps) => {
           <Section>
             <Img
               style={{ display: "inline-block" }}
-              src={`${baseUrl}/logo.png`}
+              src={`${baseUrl}/images/logo.png`}
               width="96"
               height="30"
               alt="PatternX"
