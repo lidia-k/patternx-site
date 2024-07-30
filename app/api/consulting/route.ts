@@ -30,7 +30,7 @@ export async function POST(request: Request) {
   try {
     await sendMail(<Mail.Options>{
       to: result.data.email,
-      subject: "Hello",
+      subject: "[PatternX] Request Consulting",
       html: render(ConsultationEmail(result.data)),
     });
   } catch (error) {
