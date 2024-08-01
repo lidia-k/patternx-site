@@ -82,7 +82,7 @@ export default function Webinar() {
 
         {/* Description Section */}
         <div className="md:w-2/3">
-        <h3 className="text-3xl font-extrabold mb-6 text-blue-700">Feeling Overwhelmed by AI? You're Not Alone.</h3>
+        <h3 className="text-3xl font-extrabold mb-6 text-blue-700">Feeling Overwhelmed by AI? You&apos;re Not Alone.</h3>
         
         {/* Key Points Section */}
         <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg shadow-md mb-8">
@@ -90,10 +90,10 @@ export default function Webinar() {
               Is This Webinar Series for You?
             </h4>
             <ul className="space-y-3 text-gray-700">
-            <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>You understand the importance of AI but aren't sure where to begin.</li>
-            <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>Existing AI resources seem either too technical or not tailored to healthcare's unique needs.</li>
+            <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>You understand the importance of AI but aren&apos;t sure where to begin.</li>
+            <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>Existing AI resources seem either too technical or not tailored to healthcare&apos;s unique needs.</li>
             <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>Your busy schedule leaves little time for in-depth study; you need efficient, targeted learning.</li>
-            <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>You're looking for guidance to navigate the essentials of AI in healthcare, step by step.</li>
+            <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>You&apos;re looking for guidance to navigate the essentials of AI in healthcare, step by step.</li>
             <li className="flex items-center"><span className="mr-2 text-blue-600">✔</span>You want to form informed opinions and contribute meaningfully to AI discussions at work.</li>
             </ul>
             <p className="mt-4 font-semibold text-blue-800 text-lg">
@@ -126,11 +126,11 @@ export default function Webinar() {
             <p className="text-lg"><strong>Day 3:</strong> Practical AI Use Cases in Healthcare Data Management</p>
         </div>
 
-        <p className="italic text-gray-600 mb-6">"Bridge the gap between technical expertise and practical management. Lead confidently in the evolving landscape of AI-driven healthcare."</p>
+        <p className="italic text-gray-600 mb-6">&quot;Bridge the gap between technical expertise and practical management. Lead confidently in the evolving landscape of AI-driven healthcare.&quot;</p>
 
-        <p className="mb-6 text-gray-800">Don't let the AI revolution pass you by. Join us to demystify AI, harness its potential, and lead confidently in the evolving landscape of AI-driven healthcare—all without sacrificing your valuable time or feeling pressured to become a tech expert.</p>
+        <p className="mb-6 text-gray-800">Don&apos;t let the AI revolution pass you by. Join us to demystify AI, harness its potential, and lead confidently in the evolving landscape of AI-driven healthcare—all without sacrificing your valuable time or feeling pressured to become a tech expert.</p>
 
-        <p className="mb-6 text-gray-800"><strong className="mb-6 text-blue-600">Ready to take the first step?</strong> Sign up now for our 3-day webinar series, "Unlock the Power of AI in Healthcare Management: AI Literacy for Healthcare Professionals," and start your journey to AI literacy in healthcare management.</p>
+        <p className="mb-6 text-gray-800"><strong className="mb-6 text-blue-600">Ready to take the first step?</strong> Sign up now for our 3-day webinar series, &quot;Unlock the Power of AI in Healthcare Management: AI Literacy for Healthcare Professionals,&quot; and start your journey to AI literacy in healthcare management.</p>
 
         <div className="bg-yellow-100 p-4 rounded-lg text-center">
             <p className="font-bold text-gray-800">Limited spots available! Reserve yours today!</p>

@@ -76,7 +76,7 @@ export default function Header() {
         <hr className="my-4 sm:mx-auto border-gray-700 lg:my-6" />
         <div className="text-center">
           <span className="text-sm  sm:text-center text-gray-400">
-            © 2024{" "}
+            © {(new Date().getFullYear())}{" "}
             <Link href="/" className="hover:underline">
               PatternX
             </Link>
