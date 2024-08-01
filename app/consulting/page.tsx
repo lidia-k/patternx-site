@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Content from "@/components/layout/content";
-import Link from "next/link";
+import ContactBox from "@/components/global/contact-box";
 
 export default function Consulting() {
   const [formData, setFormData] = useState({
@@ -102,19 +102,8 @@ export default function Consulting() {
             </div>
           </form>
         </div>
-        
-        <div className="text-center">
-          <p className="mb-4 text-lg">
-            Prefer to reach out directly? We're just an email away.
-          </p>
-          <Link
-            className="text-primary hover:underline text-lg font-semibold"
-            href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL}
-          >
-            Send us an email
-          </Link>
-        </div>
       </div>
+      <ContactBox />
     </Content>
   );
 }

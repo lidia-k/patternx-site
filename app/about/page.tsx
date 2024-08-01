@@ -1,5 +1,5 @@
 import Content from "@/components/layout/content";
-import Link from "next/link";
+import ContactBox from "@/components/global/contact-box";
 
 export default function Consulting() {
   return (
@@ -58,6 +58,7 @@ export default function Consulting() {
         each bringing unique expertise to the table. Together, we combine our knowledge, 
         skills, and passion to solve the most challenging data problems for our clients.
       </p>
+      <ContactBox />
     </Content>
   );
 }
